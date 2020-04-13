@@ -1,0 +1,152 @@
+body{
+    width: 99%; /* how wide to make your web page */
+    background-color: wheat;/* what color to make the background */
+    font:13px/17px Verdana, sans-serif; /* default font */
+    color: teal;
+}
+#title:hover, #title:focus {
+    cursor: pointer;
+  }
+#mainCalDiv {
+    margin: 35px 5%;
+    text-align: center;
+    width: 90%;
+}
+table {
+    overflow-x: auto;
+    table-layout: fixed;
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid teal;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+}
+th {
+    background-color: teal;
+    color: navajowhite;
+}
+.eventdiv:hover, .eventdiv:focus {
+    background-color: #f5f5f59d;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#title {
+    text-shadow: 3px 3px 5px gray;
+    font-style: oblique;
+    text-align: center;
+}
+#month_and_year {
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    color: orange;
+}
+#buttons {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#logReg {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 67px;
+    width: 35%;
+}
+#regDiv {
+    margin-top: 5px;
+    margin-left: 67px;
+    text-align: left;
+}
+#loginDiv {
+    margin-top: 35px;
+    margin-left: 67px;
+    text-align: left;
+}
+#printCurrentUser {
+    margin-top: 5px;
+    text-align: left;
+}
+#logout {
+    margin-top: 3px;
+    text-align: left;
+    display: inline-block;
+}
+#deleteAcct {
+    margin-top: 3px;
+    display: inline-block;
+}
+#addDel {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+}
+#eventAdder {
+    margin-top: 15px;
+    margin-left: 5px;
+    text-align: left;
+    display: inline-block;
+}
+#eventCategorizer {
+    margin-top: 15px;
+    margin-left: 5px;
+    text-align: left;
+    display: inline-block;
+}
+#eventOptions {
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: left;
+}
+#addEventInfo {
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: left;
+} 
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;/* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: teal;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+    color: white;
+  }
+  .modal-content2 {
+    background-color: teal;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 65%; /* Could be more or less, depending on screen size */
+    color: white;
+  }
+  
+  /* The Close Button */
+  .close, .close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus, .close2:hover,
+  .close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
